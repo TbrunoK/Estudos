@@ -95,18 +95,24 @@ fieldset legend {
 .input-wrapper label {
   font-size: 14px;
   line-height: 24px;
-  color: #4e4958;
+  color: #6b6479;
   margin-bottom: 8px;
+}
+
+.input-wrapper label span:hover {
+  color: #4bcbf1;
 }
 
 .input-wrapper label span {
   font-size: 12px;
   line-height: 20px;
-  color: #c1bccc;
+  color: #92a6ac;
   margin-left: 12px;
 }
 
-.input-wrapper input {
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
@@ -117,4 +123,23 @@ fieldset legend {
   font-size: 16px;
   line-height: 26px;
   color: #c1bccc;
+}
+
+.input-wrapper textarea {
+  padding: 0;
+  height: 169px;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+}
+.input-wrapper input:hover,
+.input-wrapper textarea:hover,
+.input-wrapper select:hover {
+  background: rgb(240, 240, 240);
+  border: 1px solid #e6e6f0;
+  color: #000000;
 }

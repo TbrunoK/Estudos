@@ -35,7 +35,7 @@
               <label for="event-link"
                 >Link do evento <span>(Começe com https://)</span></label
               >
-              <input type="text" id="event-link" />
+              <input type="url" id="event-link" />
             </div>
 
             <div class="input-wrapper">
@@ -43,19 +43,21 @@
                 >Whatsapp para contato
                 <span>Somente números (com ddd)</span></label
               >
-              <input type="text" id="event-whatsapp" />
+              <input type="number" id="event-whatsapp" />
             </div>
 
             <div class="input-wrapper">
-              <label for="event-info">Informações extras</label>
-              <input type="text" id="event-info" />
+              <label for="event-info">Título do evento </label>
+              <textarea id="event-info"></textarea>
             </div>
 
             <div class="input-wrapper">
-              <label for="event-title"
-                >Título do evento <span>(Mínimo 8 caracteres)</span></label
-              >
-              <input type="text" id="event-title" />
+              <label for="event-category">Categoria </label>
+              <select id="event-category">
+                <option value="live">Ao vivo</option>
+                <option value="podcast">Podcast</option>
+                <option value="mentorship">Mentoria</option>
+              </select>
             </div>
           </div>
         </fieldset>
