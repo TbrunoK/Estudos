@@ -132,9 +132,7 @@ fieldset legend {
 
 .input-wrapper select {
   appearance: none;
-  -moz-appearance: none;
   -webkit-appearance: none;
-  -ms-appearance: none;
 }
 .input-wrapper input:hover,
 .input-wrapper textarea:hover,
