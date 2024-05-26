@@ -158,3 +158,28 @@ fieldset legend {
 .date-col > div:nth-child(1) {
   width: 100%;
 }
+
+/* botão de cadastro */
+.event-submit {
+  width: 100%;
+  width: fill;
+}
+
+.event-submit:hover {
+  background-color: rgb(0, 225, 255);
+  border-radius: 1px;
+}
+
+.event-submit button {
+  background-color: #fcfcfc;
+  cursor: pointer;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.event-submit button:hover {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
