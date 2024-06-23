@@ -1,11 +1,14 @@
-const circulo = document.querySelector(".circulo")
+const imagens = document.querySelectorAll("#galeria li img")
 
-function seguirMouse(event) {
-  const x = event.x
-  const y = event.y
-
-  circulo.style.top = y + "px"
-  circulo.style.left = x + "px"
+function galeriaTrocar(event) {
+  const principal = document.querySelector("#imagem-principal")
+  const clicada = event.currentTarget
+  principal.src = clicada.src
+  principal.alt = clicada.alt
 }
 
-window.addEventListener("mousemove", seguirMouse)
+function galeriaClique(imagem) {
+  imagem.addEventListener("click", galeriaTrocar)
+}
+
+imagens.forEach(galeriaClique)
