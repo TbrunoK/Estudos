@@ -9,20 +9,77 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../gridtemplatecolumns/grid-template-columns.css" />
+    <link
+      rel="stylesheet"
+      href="../gridtemplatecolumns/grid-template-columns.css"
+    />
     <title>Grid Layout Container</title>
   </head>
   <body>
     <div class="container-principal">
-      <h1>Display:  block;</h1>
-      <section class="grid grid-template-columns">
+      <h1>grid-template-columns: 100px 100px 100px 100px;</h1>
+      <section class="grid grid-template-columns-1">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
         <div class="item">4</div>
       </section>
 
-        <h1>grid-template-columns: 1fr 2fr 1fr;</h1>
+       <h1>grid-template-columns: 100px 100px 100px 100px;</h1>
+      <section class="grid grid-template-columns-1">
+        <div class="item">Palavra Teste</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">PalavraTeste</div>
+      </section>
+
+          <h1>grid-template-columns: 1fr 2fr</h1>
+      <section class="grid grid-template-columns-2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </section>
+
+      <h1>grid-template-columns: 1fr 2fr</h1>
+      <section class="grid grid-template-columns-2">
+        <div class="item">PalavraTesteGrandeRespeita</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </section>
+
+      <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr</h1>
+      <section class="grid grid-template-columns-3">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
+
+      <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr</h1>
+      <section class="grid grid-template-columns-3">
+        <div class="item">TestePalavraTeste</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
+
+        <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr</h1>
+      <section class="grid grid-template-columns-3">
+        <div class="item">1</div>
+        <div class="item">TestePalavraTeste</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
+
+      <h1>grid-template-columns: 1fr 2fr 1fr;</h1>
       <section class="grid grid-template-columns-3">
         <div class="item">1</div>
         <div class="item">2</div>
@@ -31,8 +88,41 @@
         <div class="item">2</div>
         <div class="item">3</div>
       </section>
-      <button class="button"><a href="../index.html">Voltar</a></button>
 
+      <h1>subgrid</h1>
+      <section class="grid grid-template-columns-3">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="subgrid">
+          <div class="item">5.1</div>
+          <div class="item">5.2</div>
+          <div class="item">5.3</div>
+        </div>
+        <div class="item">6</div>
+      </section>
+
+      <h1>grid-template-columns: repeat(3, 1fr)</h1>
+      <section class="grid grid-template-columns-4">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
+
+      <h1>grid-template-columns: repeat(auto-fit, 100px)</h1>
+       <section class="grid grid-template-columns-5">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
+      <button class="button"><a href="../index.html">Voltar</a></button>
     </div>
   </body>
 </html>

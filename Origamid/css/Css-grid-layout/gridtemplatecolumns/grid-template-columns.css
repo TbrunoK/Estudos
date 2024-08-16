@@ -19,14 +19,46 @@
   margin: 0 auto;
   border: 1px solid #ccc;
 }
-
+/* fr é uma unidade fracional */
 .grid-template-columns {
   display: grid;
   grid-template-columns: 200px 200px;
 }
+/* Respeita apenas o min-width do item. */
+.grid-template-columns-1 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+.grid-template-columns-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .grid-template-columns-3 {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+}
+
+.grid-template-columns-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-template-columns-5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+}
+
+
+.subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.subgrid > div {
+  background: #f7f7f7;
 }
 
 .item {
