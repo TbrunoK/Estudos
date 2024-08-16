@@ -1,0 +1,31 @@
+.button {
+  font-size: 2rem;
+  background-color: hsl(0, 2%, 10%);
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 4px;
+  width: fit-content;
+  /* width: 800px; */
+  transition: 0.3;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.button a {
+  color: hsl(192, 100%, 50%);
+}
+
+.button a:hover {
+  color: hsl(192, 100%, 80%);
+  transition: 0.3;
+  opacity: 88%;
+}
+
+.container-conteudo span {
+  color: hsl(192, 100%, 50%);
+}
+
+.container-conteudo span:hover {
+  color: white;
+}

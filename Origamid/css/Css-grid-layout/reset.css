@@ -1,3 +1,5 @@
+@import url(utilitarios/utilitarios.css);
+
 * {
   margin: 0px;
   font-family: "Poppins", sans-serif;
@@ -25,3 +27,4 @@ body {
   background-color: hsl(0, 0%, 0%);
   box-sizing: border-box;
 }
+
