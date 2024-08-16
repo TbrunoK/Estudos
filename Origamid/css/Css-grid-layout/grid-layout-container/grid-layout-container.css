@@ -1,0 +1,44 @@
+/* Reset */
+@import url(../reset.css);
+
+body {
+  background-color: white;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-principal {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-principal h1 {
+  margin-top: 40px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.grid {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.grid-template-columns {
+  grid-template-columns: 200px 200px;
+}
+
+.grid-template-columns-3 {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.item {
+ margin: 5px;
+ background: tomato;
+ text-align: center;
+ font-size: 1.5;
+}
