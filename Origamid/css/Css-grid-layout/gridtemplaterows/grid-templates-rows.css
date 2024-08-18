@@ -1,0 +1,31 @@
+/* Reset */
+@import url(../reset.css);
+
+.container-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-principal h1 {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.grid {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.button {
+  margin-top: 2.2rem;
+  width: 200px;
+}
+/*  */
+
+.grid-template-rows-1 {
+  grid-template-rows: 50px 100px 50px 150px;
+}
