@@ -14,6 +14,18 @@
   color: white;
 }
 
+.item {
+  margin: 5px;
+  background: tomato;
+  text-align: center;
+  font-size: 1.5;
+}
+
+.button {
+  margin-top: 2.2rem;
+  width: 200px;
+}
+
 .grid {
   max-width: 400px;
   margin: 0 auto;
@@ -50,7 +62,6 @@
   grid-template-columns: repeat(auto-fit, 100px);
 }
 
-
 .subgrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -59,16 +70,4 @@
 
 .subgrid > div {
   background: #f7f7f7;
-}
-
-.item {
-  margin: 5px;
-  background: tomato;
-  text-align: center;
-  font-size: 1.5;
-}
-
-.button {
-  margin-top: 2.2rem;
-  width: 200px;
 }
