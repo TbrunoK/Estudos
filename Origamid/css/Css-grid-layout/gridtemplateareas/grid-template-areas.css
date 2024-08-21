@@ -18,7 +18,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0;
   border: 1px solid #ccc;
- 
 }
 
 .item {
@@ -62,4 +61,22 @@
 
 .footer {
   grid-area: f;
+}
+
+.grid-template-areas-2 {
+  grid-template-areas:
+    "c a b"
+    "c d e"
+    "c d f";
+}
+
+@media (max-width: 500px) {
+  .grid-template-areas-2 {
+    grid-template-areas:
+      "a a a"
+      "b b b"
+      "c c c"
+      "d d d"
+      "e f f";
+  }
 }
