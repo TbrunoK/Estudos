@@ -1,7 +1,7 @@
 @import url(../reset.css);
 
 .container-principal {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -11,13 +11,14 @@
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
-  
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
   border: 1px solid #ccc;
+ 
 }
 
 .item {
@@ -33,7 +34,6 @@
 }
 
 .grid-template-areas-1 {
-  
   grid-template-areas:
     "a b b "
     "c d e "
@@ -45,9 +45,21 @@
 }
 
 .nav {
-  grid-area: b ;
+  grid-area: b;
+}
+
+.sidenav {
+  grid-area: c;
 }
 
 .content {
-  grid-area: c;
+  grid-area: d;
+}
+
+.advert {
+  grid-area: e;
+}
+
+.footer {
+  grid-area: f;
 }
