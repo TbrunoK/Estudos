@@ -1,0 +1,17 @@
+@import url(../reset.css);
+@import url(../utilitarios/layout.css);
+/* Padrão */
+
+
+/*  propriedades do grid*/
+
+.grid-1 {
+  grid: 100px / 1fr 1fr 1fr;
+}
+
+.grid-2 {
+  grid: 100px / auto-flow 100px 50px;
+  /* auto-flow */
+  /* grid-auto-columns: 100px 50px */
+  /* grid-auto-flow: columns */
+}
