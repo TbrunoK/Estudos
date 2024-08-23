@@ -1,5 +1,4 @@
 @import url(utilitarios/utilitarios.css);
-
 /* Reset básico */
 * {
   margin: 0;
@@ -17,17 +16,17 @@ body {
 }
 
 .container {
+  max-width: 600px;
+  background-color: #ffffff;
   padding: 20px;
- 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-conteudo {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
-  justify-content: center;
 }
 
 .button {
@@ -37,7 +36,6 @@ body {
   text-align: center;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  display: inline-block;
 }
 
 .button:hover {
