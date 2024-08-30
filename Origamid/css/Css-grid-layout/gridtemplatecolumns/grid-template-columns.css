@@ -2,6 +2,9 @@
 @import url(../reset.css);
 @import url(../utilitarios/layout.css);
 /* fr é uma unidade fracional */
+
+
+
 .grid-template-columns {
   display: grid;
   grid-template-columns: 200px 200px;
