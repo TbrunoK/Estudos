@@ -5,18 +5,38 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: repeat(3, 100px);
+}
+
+.box {
+  width: 25rem;
 }
 
 .start {
   justify-content: start;
 }
 
+.center {
+  justify-content: center;
+}
 
 .end {
   justify-content: end;
 }
 
-.box {
-  width: 800px;
+.stretch {
+  grid-template-columns: auto;
+  justify-content: stretch;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
