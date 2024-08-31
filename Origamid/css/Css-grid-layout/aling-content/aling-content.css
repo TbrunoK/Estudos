@@ -1,0 +1,31 @@
+/* Reset */
+@import url(../reset.css);
+@import url(../utilitarios/layout.css);
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 50px);
+  height: 300px;
+}
+
+.box {
+  width: 25rem;
+}
+
+.start {
+  align-content: start;
+}
+
+.center {
+  align-content: center;
+}
+
+.end {
+  align-content: end;
+}
+
+.stretch {
+  grid-template-columns: auto;
+  align-content: stretch;
+}
