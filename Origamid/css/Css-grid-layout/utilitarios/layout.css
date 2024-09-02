@@ -2,40 +2,17 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
+  color: #ffffff;
 }
 
-.container-principal {
-  
-  max-width: 1200px;
-  max-height: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container-principal h1 {
-  margin-top: 40px;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: white;
+body > div:nth-of-type(even) {
+  background: rgba(148, 147, 147, 0.03);
 }
 
 .grid {
-  display: grid;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
 }
 
 .item {
-  margin: 5px;
   background: tomato;
-  text-align: center;
-  font-size: 1.5;
-}
-
-.button {
-  margin-top: 2.2rem;
-  width: 200px;
 }
