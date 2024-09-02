@@ -14,53 +14,62 @@
   </head>
   <body>
     <div>
-      <h1>justify-items: start;</h1>
-      <section class="grid start">
-        <div class="item">Teste 1</div>
-        <div class="item item-2">Ae 2</div>
-        <div class="item item-3">Isso 3</div>
-        <div class="item">Ab 4</div>
-        <div class="item item-5">Aqui 5</div>
-        <div class="item">Ela 6</div>
-      </section>
-    </div>
+<h1>display: block;</h1>
+<section class="grid">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</section>
+</div>
 
-    <div>
-      <h1>justify-items: end;</h1>
-      <section class="grid end">
-        <div class="item">Teste 1</div>
-        <div class="item item-2">Ae 2</div>
-        <div class="item item-3">Isso 3</div>
-        <div class="item">Ab 4</div>
-        <div class="item item-5">Aqui 5</div>
-        <div class="item">Ela 6</div>
-      </section>
-    </div>
+<div>
+<h1>display: grid;</h1>
+<section class="grid">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</section>
+</div>
 
-    <div>
-      <h1>justify-items: center;</h1>
-      <section class="grid center">
-        <div class="item">Teste 1</div>
-        <div class="item item-2">Ae 2</div>
-        <div class="item item-3">Isso 3</div>
-        <div class="item">Ab 4</div>
-        <div class="item item-5">Aqui 5</div>
-        <div class="item">Ela 6</div>
-      </section>
-    </div>
+<div>
+<h1>grid-template-columns: 200px 200px;</h1>
+<section class="container grid grid-template-columns">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</section>
+</div>
 
-    <div>
-      <h1>justify-items: stretch;</h1>
-      <section class="grid stretch">
-        <div class="item">Teste 1</div>
-        <div class="item item-2">Ae 2</div>
-        <div class="item item-3">Isso 3</div>
-        <div class="item">Ab 4</div>
-        <div class="item item-5">Aqui 5</div>
-        <div class="item">Ela 6</div>
-      </section>
-    </div>
+<div>
+<h1>grid-template-columns: 1fr 2fr 1fr;</h1>
+<section class="container grid grid-template-columns-3">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+	<div class="item">6</div>
+</section>
+</div>
 
+<div>
+<h1>subgrid</h1>
+<section class="container grid grid-template-columns-3">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item subgrid">
+		<div>5.1</div>
+		<div>5.2</div>
+		<div>5.3</div>
+	</div>
+	<div class="item">6</div>
+</section>
+</div>
     <div class="btn">
       <button class="button"><a href="../index.html">Voltar</a></button>
     </div>

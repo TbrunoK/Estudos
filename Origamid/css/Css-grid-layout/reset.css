@@ -29,26 +29,3 @@ body {
   gap: 15px;
 }
 
-.button {
-  background-color: #6200ea;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #3700b3;
-}
-
-.button a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.button span {
-  margin: 0 5px;
-  font-weight: 700;
-}

@@ -1,36 +1,28 @@
+/* Reset */
+
 @import url(../utilitarios/utilitarios.css);
-@import url(../utilitarios/layout.css);
 
 /* Grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 50px);
+  grid-template-columns: 1fr 1fr;
 }
 
-.start {
-  justify-items: start;
+.grid-template-rows-1 {
+  grid-template-rows: 50px 100px 50px 150px;
 }
 
-.end {
-  justify-items: end;
+.grid-template-rows-2 {
+  grid-template-rows: 100px 100px;
 }
 
-.center {
-  justify-items: center;
+.grid-template-rows-3 {
+  grid-template-rows: 1fr 2fr 1fr 3fr;
 }
 
-.stretch {
-  justify-items: stretch;
-}
-
-.item-2,
-.item-3 {
-  grid-row: span 2;
-}
-
-.item-5 {
-  grid-column: span 2;
+.grid-template-rows-4 {
+  grid-template-columns: 100px auto 50px;
+  grid-template-rows: 50px 200px auto;
 }
 
 /* Grid Item */
@@ -44,7 +36,7 @@
 .grid {
   max-width: 400px;
   margin: 0 auto;
-  /* border: 1px solid #ffffff; */
+  border: 1px solid #ccc;
 }
 
 h1 {
@@ -55,7 +47,7 @@ h1 {
 
 body {
   font-family: monospace;
-  /* color: #ffffff; */
+  color: #333;
   padding-bottom: 60px;
   margin: 0px;
 }
@@ -64,13 +56,12 @@ body > div {
   padding: 40px 0;
 }
 
-/* body > div:nth-of-type(even) {
-  background: rgba(148, 147, 147, 0.03);
-} */
+body > div:nth-of-type(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
 
 body > div > img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
 }
-
