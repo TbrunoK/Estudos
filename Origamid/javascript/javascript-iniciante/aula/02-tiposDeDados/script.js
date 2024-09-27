@@ -1,19 +1,13 @@
-var nome = "Bruno"
-var idade = 28
-console.log(typeof nome)
-
-var nome = "Bruno"
-var sobrenome = "Chagas"
-var NomeCompleto = nome + " " + sobrenome
-
-console.log(NomeCompleto)
-
-var gols = 1000
-var frase = "Romário fez" + " " + gols + " " + "gols"
-console.log(typeof frase)
-
 var ano = 2018
 var mes = 8
 console.log()
 
-var frase1 = "esse é o melhor ' jogo' "
+var melhor = "teste"
+var frase1 = 'Esse é o "melhor"jogo' // "esse é o \" melhor\" jogo"
+
+var gols = 1000
+// var frase2 = "Romário fez" + " " + gols + " " + "gols"
+var frase2 = `Romario fez ${gols} gols`
+console.log(typeof frase)
+
+console.log(frase2)

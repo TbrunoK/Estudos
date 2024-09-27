@@ -28,6 +28,14 @@ Você pode somar números com strings, o resultado final é sempre uma string.
 var gol = 1000
 var frase = "Romário fez" + gols + "gols"
 
+# Template String
+
+    var gols = 1000
+    var frase1 = 'Romario fez ' + gols + ' gols'
+    var frase2 = `Romario fez ${gols} gols` // Utilizando Template String
+
+Você deve passar expressões / variáveis dentro de ${}
+
 ### Aspas Duplas, Simples e Template String
 
     'Javascript é "super" fácil'
