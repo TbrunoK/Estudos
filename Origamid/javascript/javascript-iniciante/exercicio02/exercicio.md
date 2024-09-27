@@ -10,4 +10,4 @@
 
 (X) coloque a seguinte frase em uma variável : It's time
 
-() Verifique o tipo de variável que contém o seu nome 
+(X) Verifique o tipo de variável que contém o seu nome
