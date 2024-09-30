@@ -1,15 +1,15 @@
 # Informações do exercício
 
-( ) qual o resultado da seguinte expressão?
-var total = 10 + 5 \* 2 / 20 //
+(x) qual o resultado da seguinte expressão?
+var total = 10 + 5 * 2 / 20      // Number
 
-( ) Crie duas expressões que tetornem NaN
+(x) Crie duas expressões que retornem NaN
 
-( ) Somar a string "200" com número 50 e retornar 250
+(x) Somar a string "200" com número 50 e retornar 250
 
-( ) Incremente o número 5 e retorne o seu valor incrementado
+(x) Incremente o número 5 e retorne o seu valor incrementado
 
-( )como dividor o peso por 2?
+(x)como dividor o peso por 2?
 
 var numero "80"
 var unidade = "kg"
