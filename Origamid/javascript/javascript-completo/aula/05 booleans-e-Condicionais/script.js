@@ -44,3 +44,6 @@ if (condicional) {
 } else {
   console.log("(5 - 5 = 0) Falso")
 }
+
+var condicional2 = 5 - 5 || 5 + 5 || 10 - 2
+console.log(condicional2)
