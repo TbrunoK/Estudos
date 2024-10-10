@@ -40,6 +40,7 @@ function imc2(peso, altura) {
 imc2(20, 1.8) // retorna o imc
 console.log(imc(80, 1.8)) // retorna o imc e undefined
 
+// Valores retornados
 function terceiraIdade(idade) {
   if (typeof idade !== "number") {
     return "Informe a sua idade!"
@@ -49,14 +50,16 @@ function terceiraIdade(idade) {
     return false
   }
 }
+
+// Escopo
 var totalPaises = 139 //Para corrigir necessita apenas remover a variável que esta dentro do bloco {}
 function precisoVisitar(paisesVisitados) {
-  
   return "ainda faltam ${totalPaises - paisesVisitados} países"
 }
 
 console.log(totalPaises) // retorna totalPaises is not defined
 
+// Escopo Léxico
 var profissao = "Developer"
 
 function dados() {
@@ -71,3 +74,11 @@ function dados() {
 }
 
 console.log(dados()) // retorna "Bruno, 29, campos novos, santa catarina, Developer"
+
+// Hoinsting
+imc(80, 1.8) // imc aparece no console
+
+function imc(peso, altura) {
+  const imc = peso / altura ** 2
+  console.log(imc)
+}

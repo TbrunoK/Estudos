@@ -131,3 +131,15 @@ function dados() {
       }
       return outrosDados()
 }
+
+####
+
+#### Hoisting
+- Antes de executar uma função, o js"move" todas as funções declaradas para a memória
+
+imc(80, 1.80) // imc aparece no console
+
+function imc(peso, altura) {
+      const imc =peso / (altura ** 2)
+      console.log(imc)
+}
