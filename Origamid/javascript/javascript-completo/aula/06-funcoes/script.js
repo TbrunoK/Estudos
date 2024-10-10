@@ -31,3 +31,43 @@ corFavorita() //Retorna "você não gosta de nada"
 addEventListener("click", function () {
   console.log("clicou")
 })
+
+function imc2(peso, altura) {
+  const imc = peso / altura ** 2
+  console.log(imc)
+}
+
+imc2(20, 1.8) // retorna o imc
+console.log(imc(80, 1.8)) // retorna o imc e undefined
+
+function terceiraIdade(idade) {
+  if (typeof idade !== "number") {
+    return "Informe a sua idade!"
+  } else if (idade >= 60) {
+    return true
+  } else {
+    return false
+  }
+}
+var totalPaises = 139 //Para corrigir necessita apenas remover a variável que esta dentro do bloco {}
+function precisoVisitar(paisesVisitados) {
+  
+  return "ainda faltam ${totalPaises - paisesVisitados} países"
+}
+
+console.log(totalPaises) // retorna totalPaises is not defined
+
+var profissao = "Developer"
+
+function dados() {
+  var nome = "Bruno"
+  var idade = 29
+  function outrosDados() {
+    var cidade = "Campos novos"
+    var endereco = "Santa catarina"
+    return `${nome}, ${idade}, ${cidade}, ${endereco}, ${profissao}`
+  }
+  return outrosDados()
+}
+
+console.log(dados()) // retorna "Bruno, 29, campos novos, santa catarina, Developer"

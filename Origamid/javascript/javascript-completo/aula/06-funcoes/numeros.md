@@ -66,4 +66,68 @@ addEventListener("click", function() {
 console.log("clicou")
 })
 
-// Funções anônimas são aquelas em que o nome da função não é definido, escritas como  function() ou () => {}
+// Funções anônimas são aquelas em que o nome da função não é definido, escritas como function() ou () => {}
+
+####
+
+#### Pode ou não retornar um valor
+
+- Quando não definirmos o return, ela irá retornar undefined. o código interno da função é executado normalmente, independente de existir valor de return ou não.
+
+function imc2(peso, altura) {
+const imc = peso / (altura \*\* 2)
+console.log(imc)
+}
+
+imc2 (80, 1.80) // retorna o imc
+console.log(imc(80, 180)) // retorna o imc e undefined
+
+####
+
+#### Valores retornados
+
+- Uma função pode retornar qualquer tipo de dado e até outras funções.
+  function terceiraIdade(idade) {
+  if(tipeof idade !== "number") {
+  return "Informe a sua idade!"
+  } else if(idade >= 60){
+  return true
+  } else {
+  return false
+  }
+  }
+
+// Cuidado, retornar diferentes tipos de dados na mesma função não é uma boa pratica
+
+####
+
+#### Escopo
+
+- variáveis e funções definidas dentro de um bloco {}, não são visíveis fora dele,
+
+function precisoVisitar(paisesesVisitados) {
+var totalPaises = 193
+return "ainda faltam ${totalPaises - paisesVisitados} países"  
+}
+
+console.log(totalPaises) // erro, totalPaises não definido
+
+
+####
+
+
+#### Escopo Léxico
+- Funções conseguem acessar variáveis que foram criadas no contexto "pai"
+
+var profissao = "Developer"
+
+function dados() {
+      var nome = "Bruno"
+      var idade = "29"
+      function outrosDados() {
+            var cidade = "Campos novos"
+            var estado = "Santa catarina"
+            return "${nome} ${idade} ${cidade} ${estado} ${profissão}
+      }
+      return outrosDados()
+}
