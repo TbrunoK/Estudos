@@ -15,3 +15,12 @@
 // Chamado de function declaretion
 
 ####
+
+####
+
+      function pi() {
+            return 3.14
+      }
+      var total = 5 * pi() //15.7
+
+####

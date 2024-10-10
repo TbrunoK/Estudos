@@ -2,6 +2,9 @@ function areaQuadrado(lado) {
   return lado * lado
 }
 
-areaQuadrado(4) // 16
-areaQuadrado(5) // 25
-areaQuadrado(2) // 4
+console.log(areaQuadrado(10)) // 16
+
+function pi() {
+  return 3.14
+}
+var total = 5 * pi() //15.7
