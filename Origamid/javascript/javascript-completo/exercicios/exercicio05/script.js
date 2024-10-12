@@ -19,3 +19,15 @@ function perimetroQuadrado(lado) {
 var lado = 4
 var perimetro = perimetroQuadrado(lado)
 console.log("O perímetro do quadrado é: " + perimetro)
+
+// Crie uma função que retorne o seu nome completo
+
+function coletarNome() {
+  const nome = "Bruno"
+  const sobreNome = "Chagas"
+
+  return nome + " " + sobreNome
+}
+
+const nomeCompleto = coletarNome()
+console.log(nomeCompleto)
