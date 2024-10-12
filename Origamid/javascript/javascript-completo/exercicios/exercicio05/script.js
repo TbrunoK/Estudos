@@ -37,3 +37,10 @@ function ePar(numeros) {
 }
 
 console.log(ePar(4))
+
+// Crie uma função que retorne o tipo de dado do argumento passado pela (typeof)
+function tipoDeDado(argumento) {
+  return typeof argumento
+}
+console.log(tipoDeDado(42)) //retorna "number"
+console.log(tipoDeDado("Hello World")) //retorna string

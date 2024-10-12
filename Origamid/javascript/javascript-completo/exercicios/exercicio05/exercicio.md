@@ -3,3 +3,4 @@
 (X) Crie uma função que retorne o seu nome completo
 (X) ela deve possuir os parâmetros: nome e sobrenome
 (X) Crie uma função que verifica se um número e par
+(X) Crie uma função que retorne o tipo de dado do argumento passado pela (typeof)
