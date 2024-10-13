@@ -104,3 +104,16 @@ return this.height /2
 
 menu.metadeHeight() // 25
 // sem o this seria 60
+
+# Protótipo de Herança
+
+- O objeto herda propriedades e métodos do objeto que foi utilizado para criar o mesmo.
+
+var menu = {
+width: 800,
+}
+
+menu.hasOwnProperty("width") // true
+menu.hasOwnProperty("height") // false
+
+// hasOwnProperty é um método de object
