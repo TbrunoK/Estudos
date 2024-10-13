@@ -48,3 +48,15 @@ console.log(tipoDeDado("Hello World")) //retorna string
 addEventListener("click", function () {
   console.log("Bruno Chagas")
 })
+
+//  Corrija o erro abaixo
+var totalPaises = 193
+
+function precisoVisitar(paisesVisitados) {
+  return `Ainda Faltam ${totalPaises - paisesVisitados} países para visitar`
+}
+function jaVisitei(totalPaises) {
+  return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`
+}
+precisoVisitar(20)
+

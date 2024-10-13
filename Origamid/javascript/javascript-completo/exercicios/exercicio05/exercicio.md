@@ -7,8 +7,9 @@
 (X) addEventListener é uma função nativa do JavaScript
 (x) O primeiro parâmetro é o evento que ocorre e o segundo o callback
 (x) Utilize essa função para mostrar no console o seu nome completo
+
 - quando o evento "click" ocorrer
-() Corriga o erro abaixo
+  () Corrija o erro abaixo
   // function precisoVisitar(paisesVisitados) {
   var totalPaises = 193
   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
