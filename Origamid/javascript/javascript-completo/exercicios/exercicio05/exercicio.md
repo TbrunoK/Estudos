@@ -4,5 +4,17 @@
 (X) ela deve possuir os parâmetros: nome e sobrenome
 (X) Crie uma função que verifica se um número e par
 (X) Crie uma função que retorne o tipo de dado do argumento passado pela (typeof)
-() addEventListener é uma função nativa do JavaScript
-() O primeiro parâmetro é o evento que ocorre e o segundo o callback
+(X) addEventListener é uma função nativa do JavaScript
+(x) O primeiro parâmetro é o evento que ocorre e o segundo o callback
+(x) Utilize essa função para mostrar no console o seu nome completo
+- quando o evento "click" ocorrer
+() Corriga o erro abaixo
+  // function precisoVisitar(paisesVisitados) {
+  var totalPaises = 193
+  return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
+  }
+  function jaVisitei(paisesVisitados) {
+  return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`
+  }
+  precisoVisitar(20)
+  jaVisitei(20)

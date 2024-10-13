@@ -9,8 +9,6 @@ var verificarTruthy = function truthy(dado) {
   }
 }
 
-truthy()
-
 // Crie uma função matemática que retorne o perímetro de um quadrado
 function perimetroQuadrado(lado) {
   return 10 * lado
@@ -44,3 +42,9 @@ function tipoDeDado(argumento) {
 }
 console.log(tipoDeDado(42)) //retorna "number"
 console.log(tipoDeDado("Hello World")) //retorna string
+
+//  O primeiro parâmetro é o evento que ocorre e o segundo o callback
+//  Utilize essa função para mostrar no console o seu nome completo - quando o evento "click" ocorrer
+addEventListener("click", function () {
+  console.log("Bruno Chagas")
+})
