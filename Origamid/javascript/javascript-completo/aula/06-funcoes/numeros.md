@@ -55,3 +55,12 @@ var pi = Math.PI;
 console.log(pi); // 3.14
 
 - Math é um objeto nativo de JavaScript. Já Percebeu que console é um objeto e log() um método?
+
+# Criar um Objeto
+
+- Um objeto é criado utilizando as chaves {}
+
+var carro = {}`
+var pessoa = {}
+
+console.log(typeof carro); // "Object"

@@ -33,7 +33,7 @@ console.log(quadrado.perimetro(5))
 // Objetos servem para organizar o código em pequenas partes reutilizáveis.
 
 Math.PI //3.14
-math.random() // Número aleatório
+Math.random() // Número aleatório
 
 var pi = Math.PI
 console.log(pi) // 3.14
