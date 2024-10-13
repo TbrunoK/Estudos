@@ -9,13 +9,26 @@
 (x) Utilize essa função para mostrar no console o seu nome completo
 
 - quando o evento "click" ocorrer
-  () Corrija o erro abaixo
-  // function precisoVisitar(paisesVisitados) {
-  var totalPaises = 193
-  return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
-  }
-  function jaVisitei(paisesVisitados) {
+
+(X) Corrija o erro abaixo
+// function precisoVisitar(paisesVisitados) {
+var totalPaises = 193
+return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
+}
+function jaVisitei(paisesVisitados) {
+return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`
+}
+precisoVisitar(20)
+jaVisitei(20)
+
+<!--
+var totalPaises = 193
+
+function precisoVisitar(paisesVisitados) {
+  return `Ainda Faltam ${totalPaises - paisesVisitados} países para visitar`
+}
+function jaVisitei(totalPaises) {
   return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`
-  }
-  precisoVisitar(20)
-  jaVisitei(20)
+}
+precisoVisitar(20)
+ -->
