@@ -2,7 +2,7 @@
 
 - Bloco de código que pode ser executado e reutilizado. valores podem ser passados por uma função e a mesma retorna outro valor.
 
-#### calcular area quadrada
+# calcular area quadrada
 
       function areaQuadrado(lado) {
             return lado * lado
@@ -14,18 +14,14 @@
 
 // Chamado de function declaretion
 
-####
-
-#### calcular pi
+# calcular pi
 
       function pi() {
             return 3.14
       }
       var total = 5 * pi() //15.7
 
-####
-
-#### Parâmetros e Argumentos
+# Parâmetros e Argumentos
 
 - Ao criar uma função você pode definir parâmetros.
   Ao executar uma função, você pode passar argumentos.
@@ -41,9 +37,7 @@ return imc
 
 // Separar por vírgula cada parâmetro. você pode definir mais de um parâmetro ou nenhum também
 
-####
-
-#### Parênteses executa a função
+# Parênteses executa a função
 
       function corFavorita(cor) {
             if (cor === "azul") {
@@ -56,9 +50,8 @@ return imc
 
 // Se apenas definirmos a função com o function e não executarmos a mesma, nada que estiver dentro dela irá acontecer
 
-####
 
-#### Argumentos podem ser funções
+# Argumentos podem ser funções
 
 - Chamadas de Callback, geralmente são funcções que ocorrem após algum evento.
 
@@ -68,9 +61,8 @@ console.log("clicou")
 
 // Funções anônimas são aquelas em que o nome da função não é definido, escritas como function() ou () => {}
 
-####
 
-#### Pode ou não retornar um valor
+# Pode ou não retornar um valor
 
 - Quando não definirmos o return, ela irá retornar undefined. o código interno da função é executado normalmente, independente de existir valor de return ou não.
 
@@ -82,9 +74,9 @@ console.log(imc)
 imc2 (80, 1.80) // retorna o imc
 console.log(imc(80, 180)) // retorna o imc e undefined
 
-####
 
-#### Valores retornados
+
+# Valores retornados
 
 - Uma função pode retornar qualquer tipo de dado e até outras funções.
   function terceiraIdade(idade) {
@@ -99,9 +91,9 @@ console.log(imc(80, 180)) // retorna o imc e undefined
 
 // Cuidado, retornar diferentes tipos de dados na mesma função não é uma boa pratica
 
-####
 
-#### Escopo
+
+# Escopo
 
 - variáveis e funções definidas dentro de um bloco {}, não são visíveis fora dele,
 
@@ -113,10 +105,10 @@ return "ainda faltam ${totalPaises - paisesVisitados} países"
 console.log(totalPaises) // erro, totalPaises não definido
 
 
-####
 
 
-#### Escopo Léxico
+
+# Escopo Léxico
 - Funções conseguem acessar variáveis que foram criadas no contexto "pai"
 
 var profissao = "Developer"
@@ -132,9 +124,8 @@ function dados() {
       return outrosDados()
 }
 
-####
 
-#### Hoisting
+# Hoisting
 - Antes de executar uma função, o js"move" todas as funções declaradas para a memória
 
 imc(80, 1.80) // imc aparece no console

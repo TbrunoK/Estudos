@@ -6,7 +6,7 @@
 (X) qual o valor e retornado na seguinte expressão?
 var expressao = (5 - 2) && (5 - " ") && (5 - 2)
 
-#### resultado = 3
+# resultado = 3
 
 (X) Verifique se as seguinte variáveis são trusthy ou falsy
 
@@ -16,7 +16,7 @@ var possuiDoutorado = false
 var empregoFuturo;
 var dinheiroNaConta = 0;
 
-####
+#
 
 if (nome) {
 console.log("nome é Truthy");
@@ -52,7 +52,7 @@ console.log("dinheiroNaConta é Falsy");
 var brasil = 213
 var china = 1412
 
-####
+#
 
 if (brasil > china) {
 console.log("O Brasil tem mais habitantes que a China.");
@@ -62,7 +62,7 @@ console.log("A China tem mais habitantes que o Brasil.");
 console.log("O Brasil e a China têm o mesmo número de habitantes.");
 }
 
-####
+#
 
 (x) o que ira aparecer no console
 if(("Gato" === "gato") && (5 > 2) ) {
@@ -71,7 +71,7 @@ console.log("Verdadeiro)
 console.log("falso")
 }
 
-#### resultado falso
+# resultado falso
 
 (x) O que irá aparecer no console?
 if(('Gato' === 'gato') || (5 > 2)) {
@@ -80,4 +80,4 @@ console.log('Gato' && 'Cão');
 console.log('Falso');
 }
 
-#### Resultado cão
+# Resultado cão

@@ -27,7 +27,7 @@
 
       É possível verificar se uma variável é NaN ou não com função inNaN()
 
-#### NaN = Not a Number
+# NaN = Not a Number
 
       var numero = 80
       var unidade = "kg"
