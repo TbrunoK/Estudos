@@ -1,11 +1,11 @@
 //Crie uma função para verificar se um valor é truthy
-var verificarTruthy = ""
-
-function truthy() {
-  if (verificarTruthy) {
+var verificarTruthy = function truthy(dado) {
+  if (dado) {
     console.log("É Truthy")
+    return true
   } else {
     console.log("Não é Truthy")
+    return false
   }
 }
 
