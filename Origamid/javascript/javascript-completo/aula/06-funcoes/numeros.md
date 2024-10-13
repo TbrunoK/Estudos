@@ -64,3 +64,43 @@ var carro = {}`
 var pessoa = {}
 
 console.log(typeof carro); // "Object"
+
+# DoT Notation Set
+
+- Substitua o valor de uma propriedade utilizando . e o = após o nome da mesma
+
+var menu = {
+width: 800,
+height: 50,
+backgroundcColor: "#84E",
+}
+
+menu.backgroundColor = "#000"
+console.log(menu.backgroundColor): // "#000"
+
+# Adicionar Propriedades e Métodos
+
+- Basta adicionar um novo nome e definir o valor
+
+var menu = {
+width: 800,
+}
+
+menu.height = 50
+menu.position = "fixed"
+
+# Palavra-chave this
+
+this irá fazer uma referência ao próprio objeto
+
+var height = 120;
+var menu = {
+width: 800,
+height: 50,
+metadeHeight() {
+return this.height /2
+}
+}
+
+menu.metadeHeight() // 25
+// sem o this seria 60

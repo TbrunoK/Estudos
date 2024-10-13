@@ -37,3 +37,27 @@ Math.random() // Número aleatório
 
 var pi = Math.PI
 console.log(pi) // 3.14
+
+//  Criar um Objeto
+// Um objeto é criado utilizando as chaves {}
+
+var carro = {}
+var pessoa = {}
+
+console.log(typeof carro) // "Object"
+
+var menu = {
+  width: 800,
+  height: 50,
+  backgroundColor: "#843e",
+}
+
+menu.backgroundColor = "#000000"
+menu.color = "blue"
+
+menu.esconder = function() {
+  console.log("Escondi")
+}
+
+
+var bg = menu.backgroundColor
