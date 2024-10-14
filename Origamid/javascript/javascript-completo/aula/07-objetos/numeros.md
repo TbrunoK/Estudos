@@ -134,3 +134,5 @@ function imc(peso, altura) {
       const imc =peso / (altura ** 2)
       console.log(imc)
 }
+
+
