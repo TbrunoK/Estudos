@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#console {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
