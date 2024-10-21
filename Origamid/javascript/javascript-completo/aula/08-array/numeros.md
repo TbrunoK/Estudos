@@ -68,4 +68,16 @@ videoGames.forEach(function(item) {
   console.log(item)
 }) // O argumento item será atribuído dinamicamente
 
-podemos passar os seguintes parametros item, index e array 
+podemos passar os seguintes parâmetros item, index e array 
+
+
+# Não se confunda com a sintaxe
+
+var numero = 0;
+var maximo = 50;
+for(;numero < maximo;) {
+  console.log(numero)
+  numero++;
+}
+
+// Não aconselho escrever da forma acima, mas funciona normalmente.
