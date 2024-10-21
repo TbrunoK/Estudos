@@ -9,13 +9,23 @@ for (var numero = 0; numero <= 10; numero++) {
   console.log(numero)
 }
 
-// praticando
-function numeroContador(numeros) {
-  if (numeros <= 10) {
-    return console.log("É menor ou igual a dez")
-  } else {
-    return console.log("e maior que dez")
+var i = 0
+while (i < 10) {
+  console.log(i) // retorna de 0 a 9 no console
+  i++
+}
+// # Array e loops
+var videoGames = ["Switch", "Ps4", "Xbox", "3Ds"]
+for (var i = 0; i < videoGames.length; i++) {
+  console.log(videoGames[i])
+}
+// # Break
+// O loop irá para caso encontre a palavra break
+var videoGames = ["Switch", "Ps4", "Xbox", "3Ds"]
+for (var i = 0; i < videoGames.lenght; i++) {
+  console.log(videoGames[i])
+  if (videoGames[i] === "Ps4") {
+    break
   }
 }
 
-numeroContador(5)

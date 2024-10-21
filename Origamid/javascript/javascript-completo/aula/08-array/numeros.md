@@ -28,3 +28,34 @@ console.log(numero)
 
 O for loop possui 3 partes,
 início, condição e incremento
+
+# While Loop
+var i = 0
+while (i <10) {
+  console.log(i)
+  i++
+}
+
+//retorna de 0 a 9 no console
+
+O for loop é o mais comum
+
+
+# Array e loops
+var videoGames = ["Switch", Ps4", "Xbox", "3Ds"];
+for (var i = 0 <videoGames.length; i++) {
+  console.log(videoGames[i])
+}
+// for loop é o mais simples
+
+
+# Break
+O loop irá para caso encontre a palavra break
+
+var videoGames = ["Switch", "Ps4", "Xbox", "3Ds"]
+for (var i = 0; i < videoGames.lenght; i++) {
+  console.log(videoGames[i])
+  if (videoGames[i] === "Ps4") {
+    break
+  }
+}
