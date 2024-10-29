@@ -15,9 +15,25 @@ x **= y; // x = x ** y (9765625)
 
 Abreviação de condicionais como if e else
 
-var idade = 19; 
+var idade = 19;
 var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber'
 
-// Condição ? true : false 
+// Condição ? true : false
 
-Geralmente utilizado quando precisamos atribuir um valor para variável dependendo de uma condição 
+Geralmente utilizado quando precisamos atribuir um valor para variável dependendo de uma condição
+
+# If Abreviado
+
+Não é necessário abrir e fechar as chaves {} quando retornamos apenas uma linha de código
+
+var possuiFaculdade = true
+if(possuiFaculdade) console.log("Possui faculdade")
+else console.log("Não Possui faculdade")
+
+// Ou
+if(possuifaculdade)
+console.log("Possui Faculdade")
+else
+console.log("Não possui faculdade)
+
+// eu Particularmente prefiro a segunda opção aqui.
