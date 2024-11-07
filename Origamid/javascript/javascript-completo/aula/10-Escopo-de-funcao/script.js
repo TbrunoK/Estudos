@@ -1,8 +1,4 @@
-var carro = "fusca"
-
-function mostrarCarro() {
-  var frase = `Meu carro é um ${carro}`
-  console.log(frase)
+for (var i = 0; i < 10; i++) {
+  console.log(`numero ${i}`)
 }
-mostrarCarro()
-console.log(carro)
+console.log(i)

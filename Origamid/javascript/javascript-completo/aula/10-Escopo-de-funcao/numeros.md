@@ -83,3 +83,13 @@ const ano = "2018"
 
 console.log(carro) //carro
 console.log(ano) // erro ano is not defined
+
+# For loop
+
+ao utilizar var dentro de um for loop, que é um bloco, o valor da variável e utilizada e irá vazar e existir fora do loop
+
+for(var i = 0 i <10; i++) {
+console.log(`numero ${i}`)
+}
+
+console.log(i)
