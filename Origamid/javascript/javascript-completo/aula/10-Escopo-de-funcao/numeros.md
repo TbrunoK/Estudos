@@ -92,4 +92,21 @@ for(var i = 0 i <10; i++) {
 console.log(`numero ${i}`)
 }
 
-console.log(i)
+console.log(i) //10
+
+# Const
+
+Mantém o escopo no bloco, impede a redeclaração e modificação do valor da variável, evitando bugs no código
+
+const mes = "Dezembro";
+mes = "Janeiro"; // erro, tentou modificar o valor
+const semana; // erro, declarou sem valor
+
+const data = {
+dia: 28,
+mes: "dezembro",
+ano: 2018,
+}
+
+data.dia = 29; // funciona
+data = "Janeiro"; // erro

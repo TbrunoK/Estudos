@@ -1,4 +1,12 @@
-for (var i = 0; i < 10; i++) {
-  console.log(`numero ${i}`)
+const mes = "Dezembro";
+mes = "Janeiro"; // erro, tentou modificar o valor
+const semana; // erro, declarou sem valor
+
+const data = {
+  dia: 28,
+  mes: "dezembro",
+  ano: 2018,
 }
-console.log(i)
+
+data.dia = 29; // funciona
+data = "Janeiro"; // erro
