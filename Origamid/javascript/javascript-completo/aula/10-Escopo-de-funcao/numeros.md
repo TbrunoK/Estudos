@@ -110,3 +110,16 @@ ano: 2018,
 
 data.dia = 29; // funciona
 data = "Janeiro"; // erro
+
+variáveis com valores constantes
+
+# Let
+
+Mantém o escopo no bloco, impede a redeclaração, mas permite a modificação do valor da variável.
+
+let ano;
+ano = 2018;
+ano++
+console.log(ano); //2019
+
+let ano = 2020; //erro, redeclarou a variável
