@@ -6,6 +6,6 @@ console.log(hrefPagina);
 (X) Seleciona o primeiro elemento da pagina que possua a classe ativo
 const elementoAtivo = document.querySelector('.ativo');
 
-// Retorne a linguagem do navegador
+(X) Retorne a linguagem do navegador
 
 // Retorne a largura da janela
