@@ -2,7 +2,7 @@
 
 (X) Mostre o texto dos parágrafos no console
 
-() Como corrigir os erros abaixo;
+(X) Como corrigir os erros abaixo;
 const imgs = document.querySelectorAll("img")
 
 imgs.forEach(item, index => {
