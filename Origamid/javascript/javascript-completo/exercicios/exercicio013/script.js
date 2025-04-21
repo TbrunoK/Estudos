@@ -1,4 +1,4 @@
-// (X) Mostre no console cada Parágrado do site
+// (X) Mostre no console cada Parágrafo do site
 const verificarParagrafo = document.querySelectorAll("p")
 console.log(verificarParagrafo)
 
@@ -12,7 +12,7 @@ verificarParagrafo.forEach((item) => {
 
 // imgs.forEach(item, index => {
 // console.log(item, index)
-// })
+// }) 
 
 // let i = 0;
 // img.forEach( => {

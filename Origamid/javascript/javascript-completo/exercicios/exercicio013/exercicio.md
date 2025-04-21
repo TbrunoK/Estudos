@@ -1,4 +1,4 @@
-(X) Mostre no console cada Parágrado do site
+(X) Mostre no console cada Parágrafo do site
 
 (X) Mostre o texto dos parágrafos no console
 
