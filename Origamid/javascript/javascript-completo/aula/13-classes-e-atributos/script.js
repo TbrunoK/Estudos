@@ -1,16 +1,11 @@
-const menu = document.querySelector(".menu")
-// Adiciona a classe "ativo"
-menu.classList.add("ativo") 
+const animais = document.querySelector(".animais")
 
-// Remove a classe "ativo"
-menu.classList.remove("ativo") 
+animais.attributes // retorna todos os atributos do elemento
+animais.attributes[0] // retorna o primeiro atributo do elemento
 
-// Adiciona a classe "ativo" se não existir, remove se existir
-menu.classList.toggle("ativo", "azul") 
 
-// Verifica se a classe "azul" existe
-if (menu.classList.contains("azul"))  {
-  menu.classList.add("possui-azul")
-}
+console.log(animais.attributes[0])
+
+
 
 
