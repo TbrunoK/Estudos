@@ -1,11 +1,17 @@
+menubar.className += " vermelho"
+
+console.log(menubar.className)
+
 const animais = document.querySelector(".animais")
 
-animais.attributes // retorna todos os atributos do elemento
-animais.attributes[0] // retorna o primeiro atributo do elemento
+console.log(animais.attributes["data-texto"])
 
+const img = document.querySelector("img")
 
-console.log(animais.attributes[0])
+const srcImg = img.getAttribute("alt")
 
+img.setAttribute("alt", "é uma raposa")
+const possuiAlt = img.hasAttribute("alt")
+console.log(possuiAlt)
 
-
-
+console.log(srcImg)
